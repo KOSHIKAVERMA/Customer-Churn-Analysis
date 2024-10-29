@@ -36,7 +36,6 @@ Using descriptive statistics, correlation analysis, pivot tables, and charts, th
 
 The dataset used for this analysis was downloaded from **Kaggle**. Here are short descriptions of some important columns in the dataset:
 
-picture
 
 **CustomerID** : A unique identifier for each customer in the dataset.
 
