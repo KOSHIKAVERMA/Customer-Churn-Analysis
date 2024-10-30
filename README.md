@@ -133,9 +133,11 @@ This column grouped customers based on their data or service usage, making it ea
 
 ## ANALYSIS
 
-### 1. Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
-I performed  EDA to understand the distribution of key variables such as monthly charges, total revenue, and tenure
+### 1. Descriptive Statistics
+
+I performed  EDA to understand the **distribution of key variables** such as monthly charges, total revenue, and tenure
 
 - **Monthly Charges**: The average monthly charge was $64.77, with a median of $70.35 and a mode of $20.05. The standard deviation of $30.09 indicates a wide range of 
     charges, suggesting diverse service usage across customers.
@@ -156,10 +158,37 @@ I performed  EDA to understand the distribution of key variables such as monthly
  
 ### 2. Correlation Matrix
 
+In addition to descriptive statistics, I also created a correlation matrix to explore **relationships between key variables**: monthly charges, total revenue, tenure in years, churn score, and satisfaction score. If the correlation is 1 or close to 1 then its a **positive correlation**, if its (-1) or close to (-1) then its a **negative correlation** and 0 in case of **no correlation**. The key findings of the correlation are:
 
+- **Monthly Charges and Total Revenue (0.59)**: A strong positive correlation was observed, indicating that higher monthly charges are directly associated with higher total 
+    revenue.
 
+- **Tenure in Years and Churn Score (-0.22)**: A negative correlation exists, suggesting that customers with longer tenures are less likely to churn.
 
+- **Satisfaction Score and Churn Score (-0.50)**: There is a negative correlation, meaning that higher satisfaction scores are linked with lower churn scores, reflecting 
+    the importance of customer satisfaction in retention.
 
+- **Monthly Charges and Churn Score (0.13)**: A moderate positive correlation shows that customers with higher monthly charges tend to have a higher risk of churning.
+
+### 3. Regression Analysis
+
+Lastly I performed regression analysis to assess the impact of various independent variables on churn score. Key findings include:
+
+The R Square was **28%**, which means that approximately 28 % of the **variance** in the dependent variable (Churn Score) is explained by the independent variables in the model. 
+
+**Satisfaction Score**: This was a significant predictor, indicating higher satisfaction scores are strongly associated with lower churn. reflecting the importance of 
+  customer satisfaction in retention.
+
+**Contract Type**: Customers with month-to-month contracts showed a higher likelihood of churning compared to those on longer-term contracts, highlighting the need for 
+  retention strategies targeting short-term customers.
+
+**Monthly Charges**: Positively associated with churn, meaning that customers paying higher monthly charges were more likely to churn.
+
+**Age**: Suggesting older customers are slightly more likely to churn.
+
+**Average Monthly GB Download**: Higher data usage was moderately linked with churn, possibly indicating dissatisfaction among high-usage customers.
+
+**CLTV & Gender**: These variables had minimal impact on churn, suggesting that they were not significant churn predictors.
 
 
 
