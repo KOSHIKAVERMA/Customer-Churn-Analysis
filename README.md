@@ -116,7 +116,7 @@ Converting the tenure (which is in months) into years provided a more intuitive 
 Categorizing customers into age groups allowed for demographic analysis. This helped in identifying patterns or trends in churn behavior across different age groups and designing age-targeted retention strategies.
 
 ``` sql
-    =IF([@Age]>=50,"Senior", IF([@Age]>=30, "Adults", " Young adults"))
+    =IF([@Age]>=50,"Senior", IF([@Age]>=30, "Adults", "Young adults"))
 ```
 
 
@@ -125,7 +125,7 @@ Categorizing customers into age groups allowed for demographic analysis. This he
 This column grouped customers based on their data or service usage, making it easier to analyze churn rates or revenue generation for different consumption levels.
 
 ``` sql
-=IF([@[Avg Monthly GB Download]]<5, "Less than 5 GB", IF([@[Avg Monthly GB Download]]< 10, "Between 5 and 10 GB", " 10 GB or more"))
+=IF([@[Avg Monthly GB Download]]<5, "Less than 5 GB", IF([@[Avg Monthly GB Download]]< 10, "Between 5 and 10 GB", "10 GB or more"))
 ```
 
 <br>
