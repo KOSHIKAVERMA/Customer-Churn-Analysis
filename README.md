@@ -73,9 +73,9 @@ The dataset used for this analysis was downloaded from **Kaggle**. Here are shor
 
 ## DATA CLEANING
 
-Firstly I checked for any duplicate values in the data, but no duplicates values were found in the data set
+Firstly I checked for any duplicate values in the data, using conditional formatting to highlight the duplicate records, no duplicates values were found in the data set.
 
-Then I checked for missing values. There were some missing values in the **“Churn Category”** and **“Churn Reason”** columns, which pertain to customers who churned, I substituted such values with the label **“Unknown"**.
+Then I checked for missing values. There were no missing values in the data. And all the data types were correct as well.
 
 <br>
 
