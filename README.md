@@ -159,16 +159,13 @@ I performed  EDA to understand the **distribution of key variables** such as mon
 - **Monthly Charges**: The average monthly charge was $64.77, with a median of $70.35 and a mode of $20.05. The standard deviation of $30.09 indicates a wide range of 
     charges, suggesting diverse service usage across customers.
 
-- **Total Revenue**: The mean total revenue per customer was $3,034, indicating a broad distribution of earnings per customer based on service tenure and consumption 
-    patterns.
+- **Total Revenue**: The average total revenue per customer was $3,034, The high standard deviation ($2,865) reflects a substantial variability in total revenue, highlighting a wide range of revenue contributions among customers.
 
-- **Tenure in Years**: The average tenure was 3 years, showing how long customers typically stay with the company. The low standard deviation (2 years) suggests that 
-    customer retention is fairly consistent across the base.
+- **Tenure in Years**: The average tenure was 3 years, showing how long customers typically stay with the company. The standard deviation (2 years) suggests that a customer is almost as likely to stay for 1 year as they are for 5 years, indicates a moderate variability in customer tenure.
 
-- **Churn Score**: The mean churn score of 59 reflects the overall risk level of customers leaving, with a wide range indicating varying churn tendencies.
+- **Churn Score**: The mean churn score of 59 reflects the overall risk level of customers leaving, with a wide range indicating varying churn tendencies. The standard deviation of 21 shows considerable variability in churn scores, This spread suggests that while some customers are at high risk of churn, others are at much lower risk.
 
-- **Satisfaction Score**: The average satisfaction score was 3, highlighting the overall customer sentiment. The standard deviation 1 shows a mix of satisfied and 
-    dissatisfied customers.
+- **Satisfaction Score**: The average satisfaction score was 3, highlighting the overall customer sentiment. The low standard deviation of 1 reflects consistent customer satisfaction levels, with little variation in how customers rate their experience. 
 
 - **Age**: The mean customer age was 47 years, indicating that the typical customer base is middle-aged. The standard deviation of 17 years reflects significant age 
     diversity among customers, spanning from younger adults to older individuals (30 to 64 years) 
