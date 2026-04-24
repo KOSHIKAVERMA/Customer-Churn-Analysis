@@ -258,15 +258,14 @@ The R Square was **28%**, which means that approximately 28 % of the **variance*
 
 **Coefficients :**
 
-- **Satisfaction Score (-7.5194)**: This was a significant predictor, indicating higher satisfaction scores are strongly associated with lower churn. Reflecting the 
-  importance of customer satisfaction in retention.
+- **Satisfaction Score (-7.5194)**: This was a significant predictor, indicating higher satisfaction scores are strongly associated with lower churn. For every one-point increase in the customer's satisfaction score, the model predicts that the churn score will decrease by 7.51 units, holding all other variables in the model constant. Reflecting the importance of customer satisfaction in retention.
 
 - **Contract Type (5.1497)**: Customers with month-to-month contracts showed a higher likelihood of churning compared to those on longer-term contracts, highlighting the 
   need for retention strategies targeting short-term customers. 
 
-- **Monthly Charges (0.0701)**: Positively associated with churn, meaning that customers paying higher monthly charges were more likely to churn. 
+- **Monthly Charges (0.0701)**: As monthly charges increase, the churn score (the likelihood of a customer leaving) also increases. For every one-unit increase in monthly charges (e.g., an additional $1 in monthly charges), the predicted churn score increases by 0.07 units, assuming all other variables in the model are held constant.
 
-- **Age (0.0331)**: Suggesting older customers are slightly more likely to churn.
+- **Age (0.0331)**: The impact is comparitively small but it still suggests that older customers are slightly more likely to churn.
 
 - **Average Monthly GB Download (-0.0397)**: Higher data usage was moderately linked with churn, possibly indicating dissatisfaction among high-usage customers.
 
